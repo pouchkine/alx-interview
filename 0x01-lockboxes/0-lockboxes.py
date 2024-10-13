@@ -5,7 +5,7 @@ check if i can unloke the boxes
 """
 
 
-def canUnlockAll((boxes):
+def canUnlockAll(boxes):
     """
     boxes are the boxes contening keys
     """

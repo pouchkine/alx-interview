@@ -45,4 +45,11 @@ def minOperations(n):
     """
     return the sum of primes factor of a number n
     """
-    return sum(primeFactor(n))
+    try:
+        int(n)
+        if n >= 0:
+            return sum(primeFactor(n))
+        else:
+            return 0
+    except:
+        return 0

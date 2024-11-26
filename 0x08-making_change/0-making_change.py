@@ -1,7 +1,11 @@
 #!/usr/bin/python3
+"""make change functions
+"""
 
 
 def makeChange(coins, total):
+    """fonction processing
+    """
     min_coin = 0
     coins.sort()
     coins.reverse()
